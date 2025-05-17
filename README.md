@@ -10,6 +10,7 @@ data = yf.download('TSLA', start='2024-01-01', end='2025-01-01', progress=False)
 
 print(data.head())
 print(data.tail())
+
 Use code with caution
 This part of the code uses the yfinance library to download historical stock data for Tesla (TSLA) from the start of 2024 to the start of 2025. The progress=False argument suppresses the download progress bar. After downloading, the first 5 rows (data.head()) and the last 5 rows (data.tail()) of the downloaded data are printed to show a sample of the data.
 

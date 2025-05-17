@@ -1,8 +1,8 @@
 # Stock-price-predication-Model
-Overview
+# Overview
 This code snippet demonstrates how to download historical stock data, perform some basic data manipulation and visualization, prepare the data for a machine learning model, train a simple linear regression model to predict stock prices, evaluate the model's performance, and visualize the actual versus predicted stock prices.
 
-Code Breakdown
+# Code Breakdown
 import yfinance as yf
 
 # Download historical data for a stock, eg Tesla
